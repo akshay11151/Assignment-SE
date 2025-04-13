@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sample Webpage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#section1">Home</a></li>
+        <li><a href="#section2">About</a></li>
+        <li><a href="#section3">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Welcome to the Sample Website</h1>
+  </header>
+
+  <section id="section1">
+    <h2>Intro Section</h2>
+    <p>This section contains a background image and some introductory text.</p>
+    <button onclick="showAlert()">Click Me</button>
+  </section>
+
+  <section id="section2">
+    <h2>About Video</h2>
+    <video width="320" height="240" controls>
+      <source src="sample-video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <p>This is a description of the video above.</p>
+  </section>
+
+  <section id="section3">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label><br/>
+      <input type="text" id="name" name="name" /><br/><br/>
+
+      <label for="email">Email:</label><br/>
+      <input type="email" id="email" name="email" /><br/><br/>
+
+      <input type="submit" value="Submit" />
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sample Website. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
